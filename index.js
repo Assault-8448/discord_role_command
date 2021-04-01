@@ -47,7 +47,7 @@ client.on("message", (message) => {
             },
             {
               name: "-card",
-              value: "カードゲーム の役職をつけます。",
+              value: "カードゲーマー の役職をつけます。",
               inline: true
             }
           ]
