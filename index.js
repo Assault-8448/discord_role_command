@@ -8,7 +8,6 @@ client.login(config.token);
 client.once('ready', () => {
   console.log("E");
   client.user.setActivity('-helpでヘルプ表示！', { type:"PLAYING" } );
-  client.user.setStatus('dnd');
 });
 
 client.on("message", (message) => {
