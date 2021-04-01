@@ -1,12 +1,14 @@
 const djs    = require("discord.js");
 const config = require ('./config.json');
-const client = new djs.Client();
+const client = new djs.Client({ ws: { properties: { $browser: "Discord iOS" } } });
 const prefix = "-";
 
 client.login(config.token);
 
 client.once('ready', () => {
   console.log("E");
+  client.user.setActivity('-helpでヘルプ表示！', { type:"PLAYING" } );
+  client.user.setStatus('dnd');
 });
 
 client.on("message", (message) => {
