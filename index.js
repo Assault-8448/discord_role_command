@@ -1,8 +1,9 @@
-const djs = require("discord.js");
+const djs    = require("discord.js");
+const token  = require ('./config.json');
 const client = new djs.Client();
 const prefix = "-";//ここ変えると/pingの/が変わる
 
-client.login("ODI3MDg2MzYzMjkwNTAxMTUy.YGV6Mw.LwcHYTXhjMcTzJmUEUYYxHBz458");
+client.login(token);
 
 client.on("message", (message) => {
   if(message.author.bot) return;
