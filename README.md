@@ -1,2 +1,2 @@
-# discord_role_command
-高校のDiscordサーバーにてコマンドを利用して役職をユーザーに付与するBOTを作ってみました・。・
+# role_command
+- e

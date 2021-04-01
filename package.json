@@ -1,0 +1,22 @@
+{
+  "name": "discord_role_command",
+  "version": "1.0.0",
+  "description": "E",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Assault-8448/discord_role_command.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Assault-8448/discord_role_command/issues"
+  },
+  "homepage": "https://github.com/Assault-8448/discord_role_command#readme",
+  "dependencies": {
+    "discord.js": "^12.5.2"
+  }
+}
